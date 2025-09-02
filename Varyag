@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crucero Varyag</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f8fc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .card {
+            background-color: #fff;
+            padding: 25px;
+            max-width: 600px;
+            border-radius: 16px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        h1 {
+            color: #003366;
+            margin-bottom: 5px;
+        }
+        h3 {
+            color: #666;
+            font-weight: normal;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .info {
+            margin: 6px 0;
+            font-size: 16px;
+        }
+        .history {
+            font-size: 15px;
+            line-height: 1.6;
+            margin-top: 15px;
+            color: #444;
+            text-align: justify;
+        }
+        .footer {
+            margin-top: 15px;
+            font-size: 12px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Varyag1901.jpg" alt="Crucero Varyag">
+        <h1>Varyag</h1>
+        <h3>Crucero protegido ruso</h3>
+        <div class="info"><b>Fabricación:</b> 1899</div>
+        <div class="info"><b>Puesta en servicio:</b> 1901</div>
+        <div class="info"><b>Batalla destacada:</b> Batalla de Chemulpo (1904)</div>
+        <div class="info"><b>Destino final:</b> Hundido en 1916</div>
+        <p class="history">
+            El <b>Varyag</b> fue un crucero protegido de la Armada Imperial Rusa, construido en Filadelfia 
+            y botado en 1899. Su momento más célebre llegó el <b>9 de febrero de 1904</b>, durante la 
+            <b>Batalla de Chemulpo</b>, cuando enfrentó a la flota japonesa en condiciones de 
+            inferioridad numérica. Gravemente dañado, su capitán <b>Vsevolod Rudnev</b> ordenó 
+            hundirlo para evitar su captura.
+        </p>
+        <p class="history">
+            Los japoneses reflotaron el barco, lo renombraron <b>Soya</b> y lo usaron en su propia marina. 
+            En 1916, el Varyag fue devuelto a Rusia, pero naufragó frente a las costas de Escocia durante 
+            una tormenta. Hoy es recordado como un símbolo de <b>heroísmo y resistencia naval</b>.
+        </p>
+        <div class="footer">
+            Colección de Barcos Históricos • Exposición Interactiva
+        </div>
+    </div>
+</body>
+</html>
